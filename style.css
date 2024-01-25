@@ -1,3 +1,160 @@
 *{
     margin: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+.cabecalho{
+    width: 1200px;
+    padding: 20px;
+    margin: 10px;
+    background-color: red;
+    display: inline-block;
+}
+
+#buttons{
+    display: flex;
+    justify-content:right;
+}
+.button1{
+    border-radius: 30px;
+    color: black;
+    background-color: red;
+    border:none;
+    text-justify: center;
+}
+
+#logo1{
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    padding-left: 550px;
+    padding-right: 250px;
+    margin-bottom: 20px;
+}
+
+#text1{
+    justify-content: center;
+    padding-left: 350px;
+    padding-right: 300px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#pesquisa1{
+    justify-content: center;
+    padding-left: 350px;
+    padding-right: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 20px;
+}
+
+#instrucao1{
+    justify-content: center;
+    padding-left: 550px;
+    padding-right: 300px;
+    margin-bottom: 20px;
+    display: flex-box;
+    font-size: 12px;
+    text-decoration: underline;
+    background-color: red;
+    border:none;
+}
+
+#corpo{
+    background-color: grey;
+}
+
+.box{
+    width:max-content;
+    height: auto;
+    padding-left: 500px;
+    padding-right: 300px;
+    margin-bottom: 20px;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+#item1{
+    background-color:blanchedalmond;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#item2{
+    background-color: aquamarine;
+    display: inline-block;justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#item3{
+    background-color:azure;
+    display: inline-block;justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.text{
+    width:max-content;
+    height: auto;
+    padding-left: 350px;
+    padding-right: 350px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #eeee59;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#text3{
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#text4{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#text5{
+    background-color:azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#button3{
+    border-radius: 30px;
+    color: black;
+    background-color:blueviolet;
+    border: none;
+    text-justify: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
+
+
